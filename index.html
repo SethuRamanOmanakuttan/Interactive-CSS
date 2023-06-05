@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head section starts -->
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&family=Pangolin&display=swap" rel="stylesheet" />
+
+    <title>Interactive CSS</title>
+  </head>
+  <!-- Head section ends -->
+
+  <!-- Body section starts -->
+  <body>
+    <!-- Main Container -->
+    <div id="main-container">
+      <div id="info-container">
+        <h3 id="info-title">&#128075 Hey There </h3>
+        <p id="info-content">
+          Welcome to our interactive CSS playground! Dive into the world of web
+          design and unleash your creativity. Our webpage allows you to
+          experiment with various CSS properties for our adorable little box.
+          Stay tuned as we expand our collection of interactive examples, giving
+          you the power to transform elements, play with animations, and bring
+          your designs to life.
+        </p>
+      </div>
+      <div id="interactive-container">
+        <!-- Title -->
+        <div id="title">
+          <p>INTERACTIVE CSS</p>
+        </div>
+        <!-- Divider -->
+        <hr id="divider" />
+        <!-- Display Box -->
+        <div id="display-box">
+          <div id="square">Box</div>
+        </div>
+        <div>
+          <!-- Padding Slider -->
+          <div class="slider-class">
+            <label class="label-box" id="padding-label">PADDING</label>
+            <input type="range" id="padding-input" max="20" value="0" oninput="changePadding()" />
+            <span id="padding-px">0</span> px
+          </div>
+          <!-- Margin Slider -->
+          <div class="slider-class">
+            <label id="margin-label" class="label-box">MARGIN</label>
+            <input type="range" id="margin-input" max="50" value="0" oninput="changeMargin()" />
+            <span id="margin-px">0</span> px
+          </div>
+          <!-- Border Slider -->
+          <div class="slider-class">
+            <label id="border-label" class="label-box">BORDER</label>
+            <input type="range" max="10" value="0" id="border-input" oninput="changeBorder()" />
+            <span id="border-px">0</span> px
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Main JavaScript File -->
+    <script src="js/main.js"></script>
+    <script src="src/propertyInfo.json"></script>
+  </body>
+  <!-- Body section ends -->
+</html>

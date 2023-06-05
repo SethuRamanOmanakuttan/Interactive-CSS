@@ -1,0 +1,125 @@
+/* Universal Styles */
+* {
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  background-color: #e5e5e5;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: #393e46;
+  font-size: 24px;
+}
+
+/* Main Container Styles */
+#main-container {
+  display: flex;
+}
+
+/* Info Container Styles */
+#info-container {
+  font-family: "Pangolin", cursive;
+  margin-top: 5%;
+  margin-left: 40px;
+  width: 420px;
+  text-align: justify;
+}
+
+#info-container h3 {
+  font-size: 2.2rem;
+  margin-bottom: -15px;
+}
+
+#info-container p {
+  font-size: 1.6rem;
+}
+
+/* Interactive Container Styles */
+#interactive-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  margin: 3% 2% 0;
+}
+
+/* Title Styles */
+#title {
+  border: solid 3px;
+  width: 185px;
+  height: 60px;
+  margin: 5% auto 0;
+}
+
+#title p {
+  text-align: center;
+  line-height: 0.5;
+  font-size: 1.4rem;
+}
+
+/* Divider Styles */
+#divider {
+  border: solid 1.4px #393e46;
+  margin-top: 5%;
+  width: 380px;
+}
+
+/* Display Box Styles */
+#display-box {
+  height: 280px;
+  width: 400px;
+  margin: 2% auto 5%;
+  border: #393e46 solid;
+}
+
+/* Square Styles */
+#square {
+  width: 50px;
+  height: 50px;
+  background-color: #00adb5;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #e5e5e5;
+  margin: 0;
+}
+
+/* Slider Styles */
+.slider-class {
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.slider-class label,
+.slider-class span {
+  display: inline-block;
+  font-size: 1.4rem;
+}
+
+.slider-class span {
+  font-size: 1.7rem;
+}
+
+.slider-class input {
+  margin-right: 5px;
+}
+
+/* Label Box Styles */
+.label-box {
+  border: #393e46 solid 3px;
+  padding: 5px;
+  margin-right: 10px;
+  width: 95px;
+  text-align: center;
+}
+
+/* Padding Label Styles */
+#padding-label {
+  background-color: #00adb5;
+  color: #ffffff;
+}
+
+/* Border Label Styles */
+#border-label {
+  background-color: #393e46;
+  color: #e5e5e5;
+}
